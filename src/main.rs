@@ -6,6 +6,6 @@ mod parser;
 mod repl;
 
 fn main() {
-    println!("Welcome to PEPEGA lang interpretter, you can start writing commands");
+    println!("Welcome to PEPEGA lang, you can start writing commands");
     repl::start().unwrap();
 }
